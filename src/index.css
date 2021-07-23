@@ -5,9 +5,82 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0D0A1C;
+  color: #E1E1E1;
+  overflow-x: hidden;
+}
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #323979 #8a8892;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #837e99;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #323979;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  padding: 15px;
+  background-color: #323979;
+  margin: 15px 0px;
+  color: #E1E1E1;
+  font-style: bold;
+  border-radius: 1px 20px;
+}
+
+.h2pad{
+  padding: 15px 15px 0px;
+}
+
+p {
+  text-align: left;
+}
+
+.homeInfo {
+  padding: 15px;
+  background-color: #bf6745;
+  margin: 15px 0px;
+  color: #E1E1E1;
+  font-style: bold;
+  border-radius: 1px 20px;
+}
+
+.buttonInfo {
+  padding: 15px;
+  background-color: #145c42;
+  margin: 15px 0px;
+  color: #E1E1E1;
+  font-style: bold;
+  border-radius: 1px 20px;
+}
+
+button {
+  padding: 15px;
+  background-color: #135eb9;
+  margin: 15px 0px;
+  color: #E1E1E1;
+  font-style: bold;
+  border-radius: 1px 20px;
+}
+
+.altBackground {
+  background-color: #adadad;
+  color: #0D0A1C;
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
 }
