@@ -16,19 +16,19 @@ function App() {
       <div className="App">
         <Header/>
         <Switch>
-          <Route exact path="/TomPortfolio">
+          <Route exact path="/">
             <HomePage/>
           </Route>
-          <Route exact path="/TomPortfolio/resume">
+          <Route path="/resume">
             <Resume/>
           </Route>
-          <Route exact path="/TomPortfolio/gallery">
+          <Route path="/gallery">
             <Gallery/>
           </Route>
-          <Route exact path="/TomPortfolio/projects">
+          <Route path="/projects">
             <Projects/>
           </Route>
-          <Route exact path="/TomPortfolio/contact">
+          <Route path="/contact">
             <Contact/>
           </Route>
           <PageNotFound/>
