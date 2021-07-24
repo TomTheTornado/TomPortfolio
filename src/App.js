@@ -6,13 +6,13 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import PageNotFound from './components/404';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 
 import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Header/>
         <Switch>
@@ -35,7 +35,7 @@ function App() {
         </Switch>
         <Footer/>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
