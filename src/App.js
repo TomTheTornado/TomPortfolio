@@ -6,9 +6,7 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import PageNotFound from './components/404';
-import BrowserRouter from 'react-router-dom/BrowserRouter';
-import Route from 'react-router-dom/Route';
-import Switch from 'react-router-dom/Switch';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import './App.css';
 
@@ -18,19 +16,19 @@ function App() {
       <div className="App">
         <Header/>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/TomPortfolio">
             <HomePage/>
           </Route>
-          <Route path="/resume">
+          <Route path="/TomPortfolio/resume">
             <Resume/>
           </Route>
-          <Route exact path="/gallery">
+          <Route path="/TomPortfolio/gallery">
             <Gallery/>
           </Route>
-          <Route path="/projects">
+          <Route path="/TomPortfolio/projects">
             <Projects/>
           </Route>
-          <Route path="/contact">
+          <Route path="/TomPortfolio/contact">
             <Contact/>
           </Route>
           <PageNotFound/>
