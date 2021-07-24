@@ -19,16 +19,16 @@ function App() {
           <Route exact path="/TomPortfolio">
             <HomePage/>
           </Route>
-          <Route path="/TomPortfolio/resume">
+          <Route exact path="/TomPortfolio/resume">
             <Resume/>
           </Route>
-          <Route path="/TomPortfolio/gallery">
+          <Route exact path="/TomPortfolio/gallery">
             <Gallery/>
           </Route>
-          <Route path="/TomPortfolio/projects">
+          <Route exact path="/TomPortfolio/projects">
             <Projects/>
           </Route>
-          <Route path="/TomPortfolio/contact">
+          <Route exact path="/TomPortfolio/contact">
             <Contact/>
           </Route>
           <PageNotFound/>
