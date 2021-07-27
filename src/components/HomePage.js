@@ -1,9 +1,9 @@
-import profile from '../profile.png';
 //import './App.css';
 import '../index.css';
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -11,8 +11,8 @@ function HomePage() {
       <Container>
           <h1>WELCOME!</h1>
           <Row>
-              <Col><img className="w-100" src={profile}></img></Col>
-              <Col className="d-flex align-items-center">Hello there and welcome to my website. I made this site using react-bootstrap, in addition to HTML and CSS. My experience with web development is primarily self taught. I made this website to showcase my skills and list my abilities.</Col>
+              <Col><img className="w-100" src='./profilePic.png'></img></Col>
+              <Col className="d-flex align-items-center">Hello there and welcome to my website. I made this site as a react app using HTML and CSS, as well as react-bootstrap to help with formatting. This porfolio is deployed using github pages. My experience with web development is primarily self taught. I made this website to showcase my skills and list my abilities.</Col>
           </Row>
           <Row className="homeInfo">
             <h2>About Me</h2>
@@ -37,25 +37,25 @@ function HomePage() {
             <Row className="buttonInfo d-flex align-items-center justify-content-center">
               <Col className="">Click on the button to the right if you want to check out my skillset, experience, and resume.</Col>
               <Col>
-                <button href='/resume'>Resume</button>
+                <Link to='/resume'><button className="w-75">Resume</button></Link>
               </Col>
             </Row>
             <Row className="buttonInfo d-flex align-items-center justify-content-center">
               <Col>If you're interested in seeing some of the projects I've worked on over the years, feel free to take a look here.</Col>
               <Col>
-                <button href='/projects'>Projects</button>
+                <Link to='/projects'><button className="w-75">Projects</button></Link>
               </Col>
             </Row>
             <Row className="buttonInfo d-flex align-items-center justify-content-center">
               <Col>Checkout some of the different artwork and pictures in the gallery.</Col>
               <Col>
-                <button href='/gallery'>Gallery</button>
+                <Link to='/gallery'><button className="w-75">Gallery</button></Link>
               </Col>
             </Row>
             <Row className="buttonInfo d-flex align-items-center justify-content-center">
               <Col>Interested in sending a message my way? Click here.</Col>
               <Col>
-                <button href='/contact'>Contact</button>
+                <Link to='/contact'><button className="w-75">Contact</button></Link>
               </Col>
             </Row>
           </div>

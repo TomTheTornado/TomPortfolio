@@ -9,9 +9,7 @@ function Projects() {
     <div>
       <Container>
         <h1>Projects</h1>
-        <Row>
-            Here's a look at some of the projects I've worked on over the years.
-        </Row>
+        <p>Take a look at some of the projects I've worked on over the years.</p>
         <Row>
           <Col><img src=""/></Col>
           <Col>Description of the thing worked on BossFightBattleGround</Col>

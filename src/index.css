@@ -71,10 +71,15 @@ body {
   button {
     padding: 15px;
     background-color: #135eb9;
-    margin: 15px 0px;
+    margin: 5px 0px;
     color: #E1E1E1;
     font-style: bold;
-    border-radius: 1px 20px;
+    border-radius: 5px;
+    border: 2px solid #0d407e;
+  }
+  button:hover{
+    background-color: #323979;
+    border: 2px solid #262b5c;
   }
   
   .altBackground {
