@@ -11,7 +11,7 @@ function Resume() {
   return (
     <Container>
       <h1>Resume</h1>
-      <embed id="pdf" src='./filename.pdf' className="w-75" height="930px"/>
+      <embed type="application/pdf" src='./filename.pdf' className="w-75 resumePDF" height="1065px"/>
       <Row>
       </Row>
       <Row>

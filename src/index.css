@@ -89,3 +89,52 @@ body {
     /* add back negative margin value */
     padding: 0.25rem 9999rem;
   }
+
+  .nav-link:hover {
+    color: #0D0A1C;
+  }
+
+  .resumePDF{
+    overflow: hidden;
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .nav-link:hover {
+      background-color: #0D0A1C;
+      color: #E1E1E1 !important;
+      margin: 0.25rem -9999rem;
+      /* add back negative margin value */
+      padding: 0.25rem 9999rem;
+      
+    }
+  }
+
+  @media only screen and (max-width: 1190px) {
+    .resumePDF{
+      height: 910px;
+    }
+  }
+
+  @media only screen and (max-width: 984px) {
+    .resumePDF{
+      height: 660px;
+    }
+  }
+
+  @media only screen and (max-width: 759px) {
+    .resumePDF{
+      height: 485px;
+    }
+  }
+
+  @media only screen and (max-width: 536px) {
+    .resumePDF{
+      height: 455px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .resumePDF{
+      height: 420px;
+    }
+  }
