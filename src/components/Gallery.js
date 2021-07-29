@@ -14,7 +14,7 @@ function Gallery() {
           3d printing, and photography from my spare time. Have a look around!</p>
         <h2>3D Modeling</h2>
         <Row>
-          <Col><img src={temp} className="w-100"/></Col>
+          <Col><a href="URL" target="_blank" ><img src={temp} className="w-100"/></a></Col>
           <Col><img src={temp} className="w-100"/></Col>
           <Col><img src={temp} className="w-100"/></Col>
           <Col><img src={temp} className="w-100"/></Col>
