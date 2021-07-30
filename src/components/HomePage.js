@@ -12,7 +12,7 @@ function HomePage() {
           <h1>WELCOME!</h1>
           <Row>
               <Col className="d-flex align-items-center"><img className="w-100" src='./profilePic.png'></img></Col>
-              <Col className="d-flex align-items-center">Hello there and welcome to my website. I made this site as a react app using HTML and CSS, as well as react-bootstrap to help with formatting. This porfolio is deployed using github pages. My experience with web development is primarily self taught. I made this website to showcase my skills and list my abilities.</Col>
+              <Col className="d-flex align-items-center webInfo">Hello there and welcome to my website. I made this site as a react app using HTML and CSS, as well as react-bootstrap to help with formatting. This porfolio is deployed using github pages. My experience with web development is primarily self taught. I made this website to showcase my skills and list my abilities.</Col>
           </Row>
           <Row className="homeInfo">
             <h2>About Me</h2>

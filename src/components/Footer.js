@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 function Footer() {
   return (
-    <div>FOOTER</div>
+    <div className="footerBG">Thomas Powell <br></br>Copyright 2021</div>
   );
 }
 

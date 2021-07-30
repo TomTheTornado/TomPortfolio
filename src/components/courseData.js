@@ -45,7 +45,7 @@ export const courseData = [
     courseName: "COM S 281 : Digital Logic",
     skills: "Verilog",
     term: "Fall 2019",
-    desc: "Fir."
+    desc: "Covered boolean algebra, combinational and sequential logic, as well as aritmetic circuits and finite state machines. Designed and simulated circuits that could be displayed a custom programmable logic device."
   },
   {
     courseName: "COM S 309 : Software Development Practices",
@@ -78,6 +78,12 @@ export const courseData = [
     desc: "Fir."
   },
   {
+    courseName: "STAT 330 : Probability and Statistics for Computer Science",
+    skills: "N/A",
+    term: "Fall 2020",
+    desc: "Topics in the class focused on probability, random variables and distributions, stochastic process, Markov chains, as well as regression."
+  },
+  {
     courseName: "COM S 336 : Introduction to Computer Graphics",
     skills: "C",
     term: "Fall 2020",
@@ -99,7 +105,7 @@ export const courseData = [
     courseName: "S E 491 : Senior Design Project I and Professionalism",
     skills: "N/A",
     term: "Fall 2020",
-    desc: "Fir."
+    desc: "Designed a custom semester long project to be completed in S E 492 for a client. Weekly meetings with a team of peers, the client, and an advisor. Documented the requirements (functional and non-functional), the project plan, and the design detailing the neccessary technologies."
   },
   {
     courseName: "COM S 311 : Introduction to the Design and Analysis of Algorithms",

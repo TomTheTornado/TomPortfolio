@@ -15,21 +15,17 @@ function Resume() {
       <embed type="application/pdf" src='./filename.pdf' className="w-75 resumePDF" height="1065px"/>
       <Row>
       </Row>
-      <Row>
-        <p>For a more in-depth look at my work and experience, look below.</p>
-        Work Experience
-      </Row>
       <br/>
 
-      <Row className="courseBG">
+      <Row className="courseBG text-left">
         <Col>
           <h2>Relevant Programming Coursework</h2>
           {courseData.map((data, key) => {
             return (
               <Row>
                 <Col>
-                  <Row>{data.courseName}</Row>
-                  <Row>Programming Languages Used:{data.skills}</Row>
+                  <Row><h5>{data.courseName}</h5></Row>
+                  <Row><i>Programming Languages Used:</i>&nbsp;{data.skills}</Row>
                   <Row>{data.term}</Row>
                   <br/>
                 </Col>
