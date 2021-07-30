@@ -33,8 +33,8 @@ function App() {
           </Route>
           <PageNotFound/>
         </Switch>
-        <Footer/>
       </div>
+      <Footer/>
     </HashRouter>
   );
 }

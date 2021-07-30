@@ -25,7 +25,7 @@ function Resume() {
               <Row>
                 <Col>
                   <Row><h5>{data.courseName}</h5></Row>
-                  <Row><i>Programming Languages Used:</i>&nbsp;{data.skills}</Row>
+                  <Row><i>Programming Languages Used:</i>&nbsp;{data.languages}</Row>
                   <Row>{data.term}</Row>
                   <br/>
                 </Col>

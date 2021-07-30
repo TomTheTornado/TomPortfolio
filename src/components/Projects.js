@@ -21,12 +21,12 @@ function Projects() {
         </Row>
         <br/>
         <Row>
-          <Col className="d-flex align-items-center"><img className="w-100" src="./adventureConquest.png"/></Col>
+          <Col className="d-flex align-items-center"><img className="w-100" src="./projects/adventureConquest.png"/></Col>
           <Col className="d-flex align-items-center"><a href="https://adventuresconquest.herokuapp.com/">Adventurer's Conquest</a><p> - Javascript - A multiplayer game that I helped contribute to at the Spring 2018 ISU Hackathon. This project won first place with the software section. My role was to design the art and assist as backup coding.</p></Col>
         </Row>
         <br/>
         <Row>
-          <Col className="d-flex align-items-center"><img className="w-100" src="./photocenter.jpg"/></Col>
+          <Col className="d-flex align-items-center"><img className="w-100" src="./projects/photocenter.jpg"/></Col>
           <Col className="d-flex align-items-center"><a href="https://devpost.com/software/photocenter-he1ajs">PhotoCenter</a><p> - Javascript - A locally hosted photo management service with a web interface and android app created at the Fall 2019 ISU Hackathon. This project won "Best in UI Design." My role was designing and creating the user interface for the web app.</p></Col>
         </Row>
       </Container>

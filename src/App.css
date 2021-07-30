@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: calc(100vh - 135px);
 }
 
 .App-logo {
@@ -34,5 +35,11 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .App {
+    min-height: calc(100vh - 70px);
   }
 }
