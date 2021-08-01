@@ -14,6 +14,7 @@ function Gallery() {
         <h1>Gallery</h1>
         <Row className="d-flex align-items-center galleryGreenInfo">
           This a place to see different works I've done of 3d modeling, 3d printing, and photography from my spare time. Have a look around!
+          TODO - give alt names
         </Row>
         
         <h2 className="galleryOrangeInfo">3D Modeling</h2>
@@ -121,79 +122,79 @@ function Gallery() {
         <Row className="galleryRow d-flex align-items-center">
           <Col>
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A gas pump amid the winter snowfall.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/GasPump.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/GasPump.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A close-up road sign that show the imperfections and cracks after years of constant weathering.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/RoadSign.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/RoadSign.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
         </Row>
         <Row className="galleryRow d-flex align-items-center">
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A sign to the City Creek Mall in Salt Lake City with various shadows being cast.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/CityShadows.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/CityShadows.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col>
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">The handle to the gas pump with snowflakes falling all around.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/GasPumpHandle.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/GasPumpHandle.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
         </Row>
         <Row className="galleryRow d-flex align-items-center">
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A close up look on an icicle with a cloudy winter sky.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/Icicle.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/Icicle.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col>
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A close up on the weathered grill logo after some flurries.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/Grill.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/Grill.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
         </Row>
         <Row className="galleryRow d-flex align-items-center">
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A direct look at a fence sticker with clinging snow.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/Fence.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/Fence.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col>
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">Snow falling delicately over a tree branch.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/FallingSnow.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/FallingSnow.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
         </Row>
         <Row className="galleryRow d-flex align-items-center">
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A pigeon overlooking the environment from atop of a grain bin.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/Pigeon.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/Pigeon.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col>
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A still focus on the falling snowflakes with a softened background of a barn.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/BarnSnow.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/BarnSnow.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
         </Row>
         <Row className="galleryRow d-flex align-items-center">
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A small candle contrasting the texture of the dark wood grain.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/Candle.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/Candle.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col>
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A close view of a dust covered Subaru Outback with light snow atop the lettering.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/Outback.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/Outback.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
         </Row>
         <Row className="galleryRow d-flex align-items-center">
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">The underside look towards the top of an electric pole.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/ElectricPole.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/ElectricPole.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col>
@@ -205,36 +206,36 @@ function Gallery() {
         <Row className="galleryRow d-flex align-items-center">
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">The tips of a walnut tree with the moon in the background.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/WalnutMoon.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/WalnutMoon.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col>
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">In-focus water drops clinging to the side of a mirror.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/Mirror.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/Mirror.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
         </Row>
         <Row className="galleryRow d-flex align-items-center">
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">The view of clouds and airplane trails at dusk.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/SunsetClouds.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/SunsetClouds.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col>
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A couple of pigeons flapping around mid-flight.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/PigeonFlight.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/PigeonFlight.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
         </Row>
         <Row className="galleryRow d-flex align-items-center">
           <Col className="d-flex align-items-center">
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">A series of statues taken throughout Chicago. Edited in a way that is reminiscent of the Andy Worhol style.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/AndyWorholStatues.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/AndyWorholStatues.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
           <Col>
             <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip-disabled">Bubbles in a water bottle with a vibrant array of colors in the background.</Tooltip>}>
-              <span className="d-inline-block"><img src="./photography/WaterBottle.jpg" className="w-100"/></span>
+              <span className="d-inline-block"><img src="./photography/WaterBottle.JPG" className="w-100"/></span>
             </OverlayTrigger>
           </Col>
         </Row>

@@ -21,7 +21,7 @@ export const courseData = [
     courseName: "COM S 327 : Advanced Programming Techniques",
     languages: "C, C++",
     term: "Spring 2019",
-    desc: "Utilizing C, then later C++, this course had you create a semester long dungeon crawler project that was played out in the terminal. TODO web def."
+    desc: "Utilizing C, then later C++, this course had you create an semester long dungeon crawler project that was played out in the terminal. This project incrementally increased each week to addon new features.TODO web def."
   },
   {
     courseName: "COM S 363 : Introduction to Database Management Systems",
@@ -85,7 +85,7 @@ export const courseData = [
   },
   {
     courseName: "COM S 336 : Introduction to Computer Graphics",
-    languages: "C",
+    languages: "WebGL, HTML, Javascript",
     term: "Fall 2020",
     desc: "Fir."
   },
