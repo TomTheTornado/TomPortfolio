@@ -30,6 +30,7 @@ function Contact() {
           </Col>
         </Row>
       </Container>
+      <br/><br/><br/>
     </div>
   );
 }

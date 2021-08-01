@@ -67,6 +67,25 @@ body {
     font-style: bold;
     border-radius: 1px 20px;
   }
+
+  .galleryGreenInfo {
+    padding: 30px;
+    background-color: #145c42;
+    box-shadow: 10px 10px #145c426e;
+    margin: 35px 0px 30px 0px;
+    color: #E1E1E1;
+    border-radius: 1px 20px;
+  }
+
+  .galleryOrangeInfo {
+    padding: 30px;
+    background-color: #bf6745;
+    box-shadow: 10px 10px #bf68456e;
+    margin: 35px 0px 5px 0px;
+    color: #E1E1E1;
+    font-style: bold;
+    border-radius: 1px 20px;
+  }
   
   .webInfo {
     padding: 15px;
@@ -87,6 +106,30 @@ body {
     border-radius: 1px 20px;
     box-shadow: 10px 10px #145c426e;
     
+  }
+
+  .tooltip-inner {
+    background-color: #323979;
+    color: #E1E1E1;
+    font-weight: 600;
+    opacity: 1 !important;
+    border: 4px ridge #135eb9 !important;
+  }
+  
+  .bs-tooltip-auto[x-placement^="bottom"] .arrow::before, .bs-tooltip-bottom .arrow::before{
+    border-bottom-color: #135eb9;
+  }
+  
+  .bs-tooltip-auto[x-placement^="top"] .arrow::before, .bs-tooltip-top .arrow::before{
+    border-top-color:#135eb9;
+  }
+  
+  .bs-tooltip-auto[x-placement^="left"] .arrow::before, .bs-tooltip-left .arrow::before{
+    border-left-color: #135eb9;
+  }
+  
+  .bs-tooltip-auto[x-placement^="right"] .arrow::before, .bs-tooltip-right .arrow::before{
+    border-right-color: #135eb9;
   }
   
   button {

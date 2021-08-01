@@ -30,6 +30,7 @@ function Projects() {
           <Col className="d-flex align-items-center"><a href="https://devpost.com/software/photocenter-he1ajs">PhotoCenter</a><p> - Javascript - A locally hosted photo management service with a web interface and android app created at the Fall 2019 ISU Hackathon. This project won "Best in UI Design." My role was designing and creating the user interface for the web app.</p></Col>
         </Row>
       </Container>
+      <br/><br/><br/>
     </div>
   );
 }
