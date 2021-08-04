@@ -69,6 +69,34 @@ body {
     border-radius: 1px 20px;
   }
 
+  .projectOrange {
+    padding: 25px;
+    background-color: #bf6745;
+    box-shadow: 10px 10px #bf68456e;
+    margin: -10px 15px 0px 0px;
+    color: #E1E1E1;
+    font-style: bold;
+    border-radius: 1px 20px;
+  }
+
+  .projectGreen {
+    padding: 25px;
+    background-color: #145c42;
+    box-shadow: 10px 10px #145c426e;
+    margin: -10px 10px 0px 15px;
+    color: #E1E1E1;
+    font-style: bold;
+    border-radius: 1px 20px;
+  }
+
+  .galleryRow{
+    padding: 5px 0px;
+  }
+
+  .galleryImgR{
+    margin-right: -20px;
+  }
+
   .galleryGreenInfo {
     padding: 30px;
     background-color: #145c42;

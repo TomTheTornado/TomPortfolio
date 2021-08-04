@@ -25,7 +25,7 @@ export const courseData = [
   },
   {
     courseName: "COM S 363 : Introduction to Database Management Systems",
-    languages: "MySQL, JS",
+    languages: "MySQL, JS, HTML",
     term: "Spring 2019",
     desc: "Fir."
   },
@@ -55,7 +55,7 @@ export const courseData = [
   },
   {
     courseName: "S E 319 : Construction of User Interfaces",
-    languages: "JS, HTML, CSS",
+    languages: "Javascript, HTML, CSS",
     term: "Fall 2019",
     desc: "Fir."
   },
@@ -127,13 +127,13 @@ export const courseData = [
   },
   {
     courseName: "S E 417 : Software Testing",
-    languages: "TODO",
+    languages: "Java, Cobertura, Selenium, TSL",
     term: "Spring 2021",
     desc: "Fir."
   },
   {
     courseName: "S E 492 : Senior Design Project II",
-    languages: "TS, Electron",
+    languages: "TSX, Electron, CSS",
     term: "Spring 2021",
     desc: "Fir."
   },
