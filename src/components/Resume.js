@@ -20,7 +20,7 @@ function Resume() {
   
         <Row className="courseBG text-left">
           <Col>
-            <h2>Relevant Programming Coursework</h2>
+            <Row><h2>Relevant Programming Coursework</h2></Row>
             {courseData.map((data, key) => {
               return (
                 <Row>

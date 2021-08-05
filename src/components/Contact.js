@@ -16,7 +16,7 @@ function Contact() {
         <div className="contactInfo">
           <Row className="contactSidePadding">
             <Col className="d-flex justify-content-center">
-              Glad to see you've enjoyed the site enough to stumble onto this page. Feel free to contact me by sending an email to tksp98@gmail.com
+              Glad to see you've enjoyed the site enough to stumble onto this page. Feel free to contact me by email or message via&nbsp;LinkedIn.
             </Col>
           </Row>
           <Row className="d-flex justify-content-center">
