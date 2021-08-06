@@ -16,22 +16,12 @@ function App() {
       <div className="App">
         <Header/>
         <Switch>
-          <Route exact path="/">
-            <HomePage/>
-          </Route>
-          <Route exact path="/resume">
-            <Resume/>
-          </Route>
-          <Route exact path="/gallery">
-            <Gallery/>
-          </Route>
-          <Route exact path="/projects">
-            <Projects/>
-          </Route>
-          <Route exact path="/contact">
-            <Contact/>
-          </Route>
-          <PageNotFound/>
+          <Route exact path="/" component={HomePage}/>
+          <Route exact path="/resume" component={Resume}/>
+          <Route exact path="/gallery" component={Gallery}/>
+          <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/contact" component={Contact}/>
+          <Route component={PageNotFound}/>
         </Switch>
       </div>
       <Footer/>
