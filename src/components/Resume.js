@@ -20,17 +20,16 @@ function Resume() {
   
         <Row className="courseBG text-left">
           <Col>
-            <Row><h2>Relevant Programming Coursework</h2></Row>
+            <Row><h2 className="courseHeading">Relevant Programming Coursework</h2></Row>
             {courseData.map((data, key) => {
               return (
-                <Row>
+                <Row className="coursePadding">
                   <Col>
                     <Row><h5>{data.courseName}</h5></Row>
-                    <Row><i>Programming Languages Used:</i>&nbsp;{data.languages}</Row>
+                    <Row><i>Programming Languages Used:</i>&nbsp;&nbsp;{data.languages}</Row>
                     <Row>{data.term}</Row>
-                    <br/>
                   </Col>
-                  <Col>{data.desc}</Col>
+                  <Col>{data.desc}<br/></Col>
                 </Row>
               );
             })}
