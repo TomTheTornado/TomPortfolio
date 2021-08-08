@@ -86,7 +86,7 @@ function Projects() {
             <Row ><p>A batsignal I made in CS336 using Three.js. I created some of the models used in the scene myself. I used heirarchy so the batsignal moved together as it is composed of 6 different shapes. Three.js definitely was fun to experiment with and build this scene in its entirety.</p></Row>
             <Row ><p><i>Languages/Technologies:</i> Javascript, Three.js, HTML</p></Row>
           </Col>
-          <Col className="justify-content-center"><a href="https://github.com/TomTheTornado/ThreeScene/tree/main/hw6" target="_blank" rel="noopener noreferrer"><img alt="Batsignal" className="w-100 imgClick" src="./projects/batSignal.JPG"/></a></Col>
+          <Col className="justify-content-center"><a href="https://tomthetornado.github.io/ThreeScene/" target="_blank" rel="noopener noreferrer"><img alt="Batsignal" className="w-100 imgClick" src="./projects/batSignal.JPG"/></a></Col>
         </Row>
 
         <Row className="d-flex align-items-center justify-content-center galleryRow">
