@@ -13,11 +13,14 @@ function Resume() {
     <div>
       <Container>
         <h1>Resume</h1>
-        <embed type="application/pdf" src='./filename.pdf' className="w-75 resumePDF" height="1065px"/>
-        <Row>
+        <Row className="d-flex justify-content-center">
+          <embed type="application/pdf" src='./Thomas_Powell_Resume.pdf' className="w-75 resumePDF" height="1065px"/>
         </Row>
-        <br/>
-  
+        <br/><br/>
+        <Row className="d-flex justify-content-center">
+          <a className="w-75" target="_blank" href="./Thomas_Powell_Resume.pdf" rel="noopener noreferrer"><button className="w-100">PDF not showing up? View here.</button></a>
+        </Row>
+        <br/><br/>
         <Row className="courseBG text-left">
           <Col>
             <Row><h2 className="courseHeading">Relevant Programming Coursework</h2></Row>
