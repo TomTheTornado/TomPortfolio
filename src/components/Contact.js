@@ -1,4 +1,4 @@
-
+import EmailForm from './EmailForm';
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -38,6 +38,7 @@ function Contact() {
           </Row>
           <br/>
         </div>
+        <div className="contactInfo"><EmailForm/></div>
       </Container>
       <br/><br/><br/>
     </div>
